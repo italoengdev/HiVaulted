@@ -16,7 +16,6 @@
     <meta property="og:type" content="website" />
     <meta property="fb:app_id" content="1028800242485433" />
 
-
     <style>
         body {
             margin: 0;
@@ -62,9 +61,28 @@
             text-decoration: none;
             transition: background 0.2s;
             box-shadow: 0 2px 8px rgba(44, 62, 80, 0.15);
+            margin-bottom: 20px;
         }
         .login-btn:hover {
             background: linear-gradient(90deg, #2e3a59 0%, #5c7cfa 100%);
+        }
+        .footer-links {
+            margin-top: 24px;
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .footer-links a {
+            color: #dbeafe;
+            text-decoration: none;
+            font-size: 0.9rem;
+            opacity: 0.8;
+            transition: opacity 0.2s;
+        }
+        .footer-links a:hover {
+            opacity: 1;
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -73,6 +91,11 @@
         <img src="src/Logo.png" alt="HiVaulted Logo" class="logo" style="width: 400px; height: 100px; margin-bottom: 16px; display: block; margin-left: auto; margin-right: auto;">
         <div class="subtitle">Manage your posts here!<br>Login to get started.</div>
         <a class="login-btn" href="https://app.hivaulted.com/version-test/">Login</a>
+        
+        <div class="footer-links">
+            <a href="terms.html">Terms of Service</a>
+            <a href="privacy.html">Privacy Policy</a>
+        </div>
     </div>
 </body>
 </html>
